@@ -52,6 +52,14 @@ export default function Projects() {
             image: '/ropa-e.png',
 
             link: 'https://v0-e-commerce-website-alpha-orcin.vercel.app/'
+        },
+        {
+            title: 'Pagina para guia turistico',
+            category: 'Landing Page',
+            description: 'Pagina para guia turistico, ofreciendo sus servicios de tours y actividades.',
+            image: '/guia-turistico.png',
+
+            link: 'https://v0-chalten-tour-landing.vercel.app/'
         }
     ];
 
