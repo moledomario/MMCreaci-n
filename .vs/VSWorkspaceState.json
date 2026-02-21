@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\app",
-    "\\app\\components"
+    "\\app\\api",
+    "\\app\\api\\contact"
   ],
-  "SelectedNode": "\\app\\components\\Hero.jsx",
+  "SelectedNode": "\\.gitignore",
   "PreviewInSolutionExplorer": false
 }
