@@ -88,7 +88,7 @@ export default function About() {
                             {[
                                 { number: '3+', label: 'Años de experiencia' },
                                 { number: '20+', label: 'Proyectos completados' },
-                                { number: '10+', label: 'Clientes satisfechos' },
+                                { number: '12+', label: 'Clientes satisfechos' },
                             ].map((stat, index) => (
                                 <div
                                     key={index}

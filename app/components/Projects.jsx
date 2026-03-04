@@ -45,14 +45,7 @@ export default function Projects() {
 
             link: 'https://inmobiliara-seven.vercel.app/'
         },
-        {
-            title: 'E-commerce - Ropa',
-            category: 'Tienda Online',
-            description: 'Tienda online elegante para ropa con carrito de compras, pasarela de pago y gestión de inventario.',
-            image: '/ropa-e.png',
 
-            link: 'https://v0-e-commerce-website-alpha-orcin.vercel.app/'
-        },
         {
             title: 'Pagina para guia turistico',
             category: 'Landing Page',
@@ -60,8 +53,22 @@ export default function Projects() {
             image: '/guia-turistico.png',
 
             link: 'https://v0-chalten-tour-landing.vercel.app/'
+        },
+        {
+            title: 'Servicios Digitals Network',
+            category: 'Web Completa',
+            description: 'Web completa para grupo de ingenieros en redes, ofreciendo informacion de sus servicos y mostrando productos.',
+            image: '/sdn.png',
+            link: 'https://www.servicios-digitals-network.com/'
+        },
+        {
+            title: 'Poppi-makeup',
+            category: 'E-commerce',
+            description: 'Tienda online para maquillaje con carrito de compras, y sistema CRUD para gestionar productos, con mercado pago como pasarela de pago.',
+            image: '/poppi.png',
+            link: '#'
         }
-    ];
+    ]
 
     return (
         <section
@@ -103,6 +110,7 @@ export default function Projects() {
                                     alt={project.title}
                                     fill
                                     className="object-cover group-hover:scale-110 transition-transform duration-700"
+                                    sizes='(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw'
                                 />
                                 <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40 to-transparent opacity-60 group-hover:opacity-80 transition-opacity duration-500" />
 
@@ -114,6 +122,7 @@ export default function Projects() {
 
                                 <a
                                     href={project.link}
+                                    target="_blank"
                                     className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300"
                                 >
                                     <div className="w-14 h-14 bg-cyan-500 rounded-full flex items-center justify-center transform scale-75 group-hover:scale-100 transition-transform duration-300">
@@ -137,6 +146,7 @@ export default function Projects() {
 
                                 <a
                                     href={project.link}
+                                    target='_blank'
                                     className="mt-6 flex items-center text-cyan-400 text-sm font-medium group-hover:gap-2 transition-all duration-300"
                                 >
                                     <span>Ver proyecto</span>

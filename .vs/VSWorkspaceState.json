@@ -1,10 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app",
-    "\\app\\api",
-    "\\app\\api\\contact"
+    "\\app"
   ],
-  "SelectedNode": "\\.gitignore",
+  "SelectedNode": "\\app\\pages",
   "PreviewInSolutionExplorer": false
 }
