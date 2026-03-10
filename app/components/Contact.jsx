@@ -221,7 +221,7 @@ export default function Contact() {
 
                             <div className="flex gap-4">
                                 <a
-                                    href="https://www.facebook.com/profile.php?id=61587257003860"
+                                    href="https://www.facebook.com/profile.php?id=61586942234521"
                                     className="w-12 h-12 rounded-full bg-gray-700/50 flex items-center justify-center text-gray-400 hover:bg-cyan-500/10 hover:text-cyan-400 transition-all duration-300 hover:scale-110"
                                     target="_blank"
                                     rel="noopener noreferrer"

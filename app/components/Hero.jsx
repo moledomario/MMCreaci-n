@@ -81,7 +81,7 @@ export default function Hero() {
                     }}
                 >
                     <a
-                        href="https://www.facebook.com/profile.php?id=61587257003860"
+                        href="https://www.facebook.com/profile.php?id=61586942234521"
                         className="text-gray-400 hover:text-cyan-400 transition-colors duration-300 transform hover:scale-110"
                         target="_blank"
                         rel="noopener noreferrer"
