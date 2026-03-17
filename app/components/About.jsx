@@ -51,7 +51,7 @@ export default function About() {
                     <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-cyan-300 mx-auto mt-6 rounded-full" />
                 </div>
 
-                <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+                <div className="items-center max-w-[75%] mx-auto">
                     <div className="space-y-6">
                         <div className="inline-flex items-center gap-3 mb-4">
                             <div className="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center">
@@ -105,39 +105,9 @@ export default function About() {
                         </div>
                     </div>
 
-                    <div className="relative">
-                        <div className="relative rounded-2xl overflow-hidden group">
-                            <div className="absolute -inset-1 bg-gradient-to-r from-cyan-500 via-cyan-400 to-cyan-500 rounded-2xl blur-sm opacity-50 group-hover:opacity-75 transition-opacity duration-500" />
 
-                            <div className="relative rounded-2xl overflow-hidden">
-                                <div className="relative w-full h-[400px] md:h-[500px] group-hover:scale-105 transition-transform duration-700">
-                                    <Image
-                                        src="/about-image.png"
-                                        alt="Código de desarrollo web"
-                                        fill
-                                        className="object-cover"
-                                    />
-                                </div>
-
-                                <div className="absolute inset-0 bg-gradient-to-t from-gray-900/80 via-transparent to-transparent" />
-
-                                <div
-                                    className={`absolute bottom-6 left-6 bg-gray-900/90 backdrop-blur-sm px-4 py-2 rounded-lg border border-gray-700/50 transition-all duration-500 delay-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-5'
-                                        }`}
-                                >
-                                    <span className="text-cyan-400 font-semibold">Innovación</span>
-                                    <span className="text-gray-400"> - Tecnología - </span>
-                                    <span className="text-cyan-300 font-semibold">Futuro</span>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div className="absolute -top-4 -right-4 w-24 h-24 border-2 border-cyan-500/30 rounded-2xl animate-spin-slow"
-                            style={{ animationDuration: '20s' }} />
-                        <div className="absolute -bottom-4 -left-4 w-16 h-16 border-2 border-cyan-400/30 rounded-full animate-pulse" />
-                    </div>
                 </div>
             </div>
-        </section>
+        </section >
     );
 }

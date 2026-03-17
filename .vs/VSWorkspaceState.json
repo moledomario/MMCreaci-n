@@ -1,8 +1,9 @@
 {
   "ExpandedNodes": [
     "",
-    "\\app"
+    "\\app",
+    "\\app\\components"
   ],
-  "SelectedNode": "\\app\\pages",
+  "SelectedNode": "\\app\\components\\Header.jsx",
   "PreviewInSolutionExplorer": false
 }
