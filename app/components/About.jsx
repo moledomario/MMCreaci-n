@@ -1,7 +1,6 @@
 "use client";
 
 import { useRef, useEffect, useState } from 'react';
-import Image from 'next/image';
 
 export default function About() {
     const ref = useRef(null);
@@ -31,24 +30,21 @@ export default function About() {
     return (
         <section
             ref={ref}
-            className="min-h-screen bg-gray-900 py-24 px-6 relative overflow-hidden"
+            className="min-h-screen py-24 px-6 relative overflow-hidden colorblack border-b border-white/50 border-t-2 border-[#3b82f6] "
             id="quienes-somos"
         >
-            <div className="absolute top-1/4 -left-32 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl" />
-            <div className="absolute bottom-1/4 -right-32 w-80 h-80 bg-cyan-400/10 rounded-full blur-3xl" />
-
             <div
                 className={`max-w-7xl mx-auto transition-all duration-1000 ${isInView ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'
                     }`}
             >
                 <div className="text-center mb-16">
-                    <span className="text-cyan-400 text-sm tracking-[0.3em] uppercase font-medium">
+                    <span className="colorblue text-sm tracking-[0.3em] uppercase font-medium">
                         Conócenos
                     </span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">
                         Quiénes Somos
                     </h2>
-                    <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-cyan-300 mx-auto mt-6 rounded-full" />
+                    <div className="w-24 h-1 bg-[#3b82f6] mx-auto mt-6 rounded-full" />
                 </div>
 
                 <div className="items-center max-w-[75%] mx-auto">
@@ -56,7 +52,7 @@ export default function About() {
                         <div className="inline-flex items-center gap-3 mb-4">
                             <div className="w-12 h-12 rounded-xl bg-cyan-500/20 flex items-center justify-center">
                                 <svg
-                                    className="w-6 h-6 text-cyan-400"
+                                    className="w-6 h-6 colorblue"
                                     fill="none"
                                     viewBox="0 0 24 24"
                                     stroke="currentColor"
@@ -94,7 +90,7 @@ export default function About() {
                                     key={index}
                                     className="text-center hover:scale-105 transition-transform duration-300"
                                 >
-                                    <div className="text-2xl md:text-3xl font-bold text-cyan-400">
+                                    <div className="text-2xl md:text-3xl font-bold colorblue">
                                         {stat.number}
                                     </div>
                                     <div className="text-sm text-gray-400 mt-1">
