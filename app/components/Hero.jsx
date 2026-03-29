@@ -14,7 +14,7 @@ export default function Hero() {
 
 
                 <div className="z-10 text-center px-4 mt-24">
-                    <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-100">
+                    <h1 className="text-5xl sm:text-6xl md:text-6xl lg:text-7xl font-bold tracking-tight text-gray-100" style={{ fontFamily: "Inter, sans-serif" }} >
                         Potencia tu empresa
                         <br />
                         con nosotros

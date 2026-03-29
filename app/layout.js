@@ -1,7 +1,7 @@
 import "./globals.css";
 import ChatWidget from "./components/chat";
 import { Roboto_Mono } from "next/font/google";
-import { Inter } from "next/font/google";
+import { Inter, Anton } from "next/font/google";
 const roboto_mono = Roboto_Mono({
   subsets: ["latin"],
   variable: "--font-roboto-mono",
@@ -10,7 +10,11 @@ const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
 });
-
+const anton = Anton({
+  subsets: ["latin"],
+  variable: "--font-anton",
+  weight: "400",
+});
 export const metadata = {
   title: {
     default: 'MM Creación | Desarrollo Web Profesional',
@@ -58,12 +62,6 @@ export const metadata = {
     card: 'summary_large_image',
     title: 'MM Creación | Desarrollo Web Profesional',
     description: 'Potenciamos tu empresa con presencia web profesional. Diseño y desarrollo de landing pages y sitios web.',
-    images: ['/og-image.png'],
-    creator: '@mm_programacion',
-  },
-  icons: {
-    icon: '/MMsolo.png',
-    apple: '/MMsolo.png',
   },
 };
 

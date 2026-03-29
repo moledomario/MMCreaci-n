@@ -8,13 +8,16 @@
     radial-gradient(ellipse at 100% 100%, rgb(59, 130, 246) 20%, transparent 50%);
 }
 
+.colorblueback {
+  background-color: #3b82f6;
+}
 
 .colorblack {
   background-color: #000000;
 }
 
 .colorblue {
-  color: rgb(59, 130, 246);
+  color: #3b82f6;
 }
 
 .colorlightblue {

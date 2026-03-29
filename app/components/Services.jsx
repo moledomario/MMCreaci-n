@@ -98,13 +98,13 @@ export default function Services() {
                     }`}
             >
                 <div className="text-center mb-16">
-                    <span className="text-cyan-400 text-sm tracking-[0.3em] uppercase font-medium">
+                    <span className="text-3xl colorblue tracking-[0.3em] uppercase">
                         Servicios
                     </span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4 max-w-4xl mx-auto">
                         Lo que puedo hacer por tu negocio
                     </h2>
-                    <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-cyan-300 mx-auto mt-6 rounded-full" />
+                    <div className="w-24 h-1 bg-blue-500 mx-auto mt-6 rounded-full" />
                 </div>
 
                 <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center">
@@ -118,7 +118,7 @@ export default function Services() {
                             <div className="absolute inset-0 bg-gradient-to-br from-cyan-500/0 to-cyan-500/0 group-hover:from-cyan-500/5 group-hover:to-transparent rounded-2xl transition-all duration-500" />
 
                             <div className="relative z-10">
-                                <div className="w-16 h-16 bg-cyan-500/10 rounded-xl flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all duration-300">
+                                <div className="w-16 h-16 bg-[#050a30] rounded-xl flex items-center justify-center text-cyan-400 mb-6 group-hover:bg-cyan-500/20 group-hover:scale-110 transition-all duration-300">
                                     {service.icon}
                                 </div>
 
@@ -144,7 +144,7 @@ export default function Services() {
                 </div>
 
                 <div className="text-center mt-16">
-                    <button className="px-8 py-4 bg-cyan-500 hover:bg-cyan-400 text-gray-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105">
+                    <button className="px-8 py-4 bg-[#ffff]  text-gray-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105">
                         <a
                             href="#contacto"
                         >
