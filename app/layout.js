@@ -16,6 +16,9 @@ const anton = Anton({
   weight: "400",
 });
 export const metadata = {
+  icons: {
+    icon: '/logo.png',
+  },
   title: {
     default: 'MM Creación | Desarrollo Web Profesional',
     template: '%s | MM Creación',

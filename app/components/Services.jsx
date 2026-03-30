@@ -144,7 +144,7 @@ export default function Services() {
                 </div>
 
                 <div className="text-center mt-16">
-                    <button className="px-8 py-4 bg-[#ffff]  text-gray-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105">
+                    <button className="px-8 py-4 bg-[#ffff] text-gray-900 font-semibold rounded-lg transition-all duration-300 hover:shadow-lg hover:shadow-cyan-500/50 hover:scale-105">
                         <a
                             href="#contacto"
                         >

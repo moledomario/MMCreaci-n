@@ -38,7 +38,7 @@ export default function About() {
                     }`}
             >
                 <div className="text-center mb-16">
-                    <span className="colorblue text-sm tracking-[0.3em] uppercase font-medium">
+                    <span className="colorblue tracking-[0.3em] uppercase text-2xl">
                         Conócenos
                     </span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">

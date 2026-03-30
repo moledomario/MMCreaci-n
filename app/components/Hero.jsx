@@ -19,7 +19,7 @@ export default function Hero() {
                         <br />
                         con nosotros
                     </h1>
-                    <TextAnimate animation="blurInUp" by="character" duration={3} className="mt-6 text-lg text-[#3b82f6] max-w-md mx-auto ">
+                    <TextAnimate animation="blurInUp" by="word" duration={3} className="mt-6 text-base sm:text-lg lg:text-xl text-[#3b82f6] mx-auto max-w-xs sm:max-w-md px-2">
                         Impulsa tu negocio con presencia web profesional.
                     </TextAnimate>
                 </div>

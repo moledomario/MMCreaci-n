@@ -66,7 +66,7 @@ export default function Projects() {
             category: 'E-commerce',
             description: 'Tienda online para maquillaje con carrito de compras, y sistema CRUD para gestionar productos, con mercado pago como pasarela de pago.',
             image: '/poppi.png',
-            link: '#'
+            link: 'https://poppi-makeup.vercel.app/'
         }
     ]
 
@@ -84,13 +84,13 @@ export default function Projects() {
                     }`}
             >
                 <div className="text-center mb-16">
-                    <span className="text-cyan-400 text-sm tracking-[0.3em] uppercase font-medium">
+                    <span className="colorblue text-2xl tracking-[0.3em] uppercase ">
                         Portafolio
                     </span>
                     <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white mt-4">
                         Proyectos Destacados
                     </h2>
-                    <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-cyan-300 mx-auto mt-6 rounded-full" />
+                    <div className="w-24 h-1 colorblueback mx-auto mt-6 rounded-full" />
                     <p className="text-gray-400 mt-6 text-lg max-w-2xl mx-auto">
                         Algunos ejemplos de proyectos que he realizado
                     </p>
